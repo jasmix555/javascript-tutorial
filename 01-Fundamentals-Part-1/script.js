@@ -112,19 +112,57 @@ console.log(myFirstJob);
 
 // console.log(now - 2001  > now - 2002);
 
-const now = 2023;
-const ageJason = now - 2001;
-const ageGirl = now - 2002;
+// const now = 2023;
+// const ageJason = now - 2001;
+// const ageGirl = now - 2002;
 
-console.log(now - 2001  > now - 2002);
+// console.log(now - 2001  > now - 2002);
 
 //learning about operator precedence(the importance of something(priority , order , rank))
-console.log(25-10-5);
+// console.log(25-10-5);
 
 // the evaluation goes from right to left(because the precedence goes that way for the subtraction)
-let x,y;
-x = y = 25 - 10 - 5; // x = y = 10(the result of the subtraction) , x = 10
-console.log(x,y);
+// let x,y;
+// x = y = 25 - 10 - 5; // x = y = 10(the result of the subtraction) , x = 10
+// console.log(x,y);
 
-const averageAge = (ageJason + ageGirl) / 2; //if we dont put the bracket first, it will give out a weird number as the precedence is working from right to left
-console.log(ageJason , ageGirl , averageAge);
+// const averageAge = (ageJason + ageGirl) / 2; 
+//if we dont put the bracket first, it will give out a weird number as the precedence is working from right to left
+// console.log(ageJason , ageGirl , averageAge);
+
+// Coding Challenge #1
+
+/*
+Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: BMI = mass / height ** 2 = mass / (height * height). (mass in kg and height in meter).
+
+1. Store Mark's and John's mass and height in variables
+2. Calculate both their BMIs using the formula (you can even implement both versions)
+3. Create a boolean variable 'markHigherBMI' containing information about whether Mark has a higher BMI than John.
+
+TEST DATA 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall.
+TEST DATA 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall.
+
+GOOD LUCK 😀
+
+//Test Data 1
+// const markWeight = 78;
+// const markHeight = 1.69;
+// const johnWeight = 92;
+// const johnHeight = 1.95;
+// const markBMI = markWeight / (markHeight * markHeight);
+// const johnBMI = johnWeight / (johnHeight * johnHeight);
+// const markHigherBMI = markBMI > johnBMI;
+// console.log(markBMI , johnBMI , markHigherBMI);
+
+//Test Data 2
+// const markWeight = 95;
+// const markHeight = 1.88;
+// const johnWeight = 85;
+// const johnHeight = 1.76;
+// const markBMI = markWeight / (markHeight * markHeight);
+// const johnBMI = johnWeight / (johnHeight * johnHeight);
+// const markHigherBMI = markBMI > johnBMI;
+// console.log(markBMI , johnBMI , markHigherBMI);
+*/
+
+
