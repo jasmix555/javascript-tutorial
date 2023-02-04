@@ -165,4 +165,32 @@ GOOD LUCK 😀
 // console.log(markBMI , johnBMI , markHigherBMI);
 */
 
+// 2023/02/04
 
+//About Strings and Template literals(without using space to cleanly write the code)
+
+// const firstName = "jason";
+// const job = "student";
+// const birthYear =  2001;
+// const year = 2023
+// const jason = "I'm " + firstName + ", am a " + (year - birthYear) + " years old " + job;
+// console.log(jason);
+// //the start of using backticks (` `)
+// const jasonNew = `I'm ${firstName}, a ${year - birthYear} years old ${job}`;
+// console.log(jasonNew);
+
+// console.log(`Just a regular string....`);
+
+// console.log(`string
+// with
+// multiple
+// line`);
+
+// about if and else
+const age = 19;
+if(age >= 18){
+    console.log('jason can start driving license  😆');
+}else{
+    const yearsLeft = 18 - age;
+    console.log(`jason is too young. wait another ${yearsLeft} years.`);
+}
