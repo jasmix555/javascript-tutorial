@@ -354,15 +354,18 @@ TEST DATA BONUS 1: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 123
 TEST DATA BONUS 2: Dolphins score 97, 112 and 101. Koalas score 109, 95 and 106
 
 GOOD LUCK 😀
+const dolphinsScore = (97 + 112 + 81) / 3;
+const koalasScore = (109 + 95 + 86) / 3;
+console.log(dolphinsScore , koalasScore);
+if(dolphinsScore > koalasScore &&  dolphinsScore >= 100){
+    console.log("Dolphins Win");
+}else if(dolphinsScore < koalasScore && koalasScore >= 100){  
+    console.log("Koalas Win");
+}else if(dolphinsScore===koalasScore && dolphinsScore >= 100 && koalasScore >= 100){
+    console.log("It's a draw");
+}else{
+    console.log("No one wins");
+}
 */
 
-const dolphinsScore = (96 + 108 + 89) / 3;
-const koalasScore = (88 + 91 + 110) / 3;
-console.log(dolphinsScore , koalasScore);
-if(dolphinsScore > koalasScore){
-    console.log("Dolphins Win");
-}else if(dolphinsScore < koalasScore){
-    console.log("Koalas Win");
-}else if(dolphinsScore===koalasScore){
-    console.log("It's a draw");
-}
+//switch statement
