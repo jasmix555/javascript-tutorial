@@ -369,30 +369,43 @@ if(dolphinsScore > koalasScore &&  dolphinsScore >= 100){
 */
 
 //switch statement
-const day = "monday";
-switch(day){
-    case"monday": //day === "monday"
-    console.log("Plan course structure");
-    console.log('Go to coding meetup');
-    break;
-    case"tuesday":
-    console.log("Prepare theory videos");
-    break;
-    case"wednesday":
-    console.log("Work on the js challenge");
-    break;
-    case"thursday":
-    console.log("write code examples");
-    break;
-    case"friday":
-    console.log("Record videos");
-    break;
-    case"saturday":
-    console.log("enjoy the weekend's");
-    break;
-    case"saturday":
-    console.log("enjoy the weekend's");
-    break;
-    default:
-        console.log("Not a valid day");
-}
+// const day = "monday";
+// switch(day){
+//     case"monday": //day === "monday"
+//     console.log("Plan course structure");
+//     console.log('Go to coding meetup');
+//     break;
+//     case"tuesday":
+//     console.log("Prepare theory videos");
+//     break;
+//     case"wednesday":
+//     console.log("Work on the js challenge");
+//     case"thursday":
+//     console.log("write code examples");
+//     break;
+//     case"friday":
+//     console.log("Record videos");
+//     break;
+//     case"saturday":
+//     case"sunday":
+//     console.log("enjoy the weekend's");
+//     break;
+//     default:
+//         console.log("Not a valid day");
+// }
+
+// if(day === "monday"){
+//     console.log();
+// }else if(day === "tuesday"){
+
+// }else if(day === "wednesday" || day === "thursday"){
+//     console.log("write code examples");
+// }else if(day === "friday"){
+//     console.log("Record videos");
+// }else if(day === "saturday" || day === "sunday"){
+//     console.log("enjoy the weekend's");
+// }else{
+//     console.log("Not a valid day");
+// }
+
+//statements and expressions differences
