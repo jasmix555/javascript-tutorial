@@ -16,10 +16,12 @@ logger();
 logger();
 
 function fruitProcsr(apples , oranges){
-    console.log(apples , oranges );
-    const juice = `juice with ${apples} apples and ${oranges} oranges.`
+    const juice = `Juice with ${apples} apples and ${oranges} oranges.`
     return juice;
 }
 
 const applejuice = fruitProcsr(5, 0);
 console.log(applejuice);
+
+const appleOrangejuice = fruitProcsr(2, 5);
+console.log(appleOrangejuice);
