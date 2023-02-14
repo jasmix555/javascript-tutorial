@@ -25,3 +25,5 @@ console.log(applejuice);
 
 const appleOrangejuice = fruitProcsr(2, 5);
 console.log(appleOrangejuice);
+
+const num = number("23");
