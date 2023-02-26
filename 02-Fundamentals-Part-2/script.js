@@ -29,19 +29,25 @@
 // const num = Number("23");
 // console.log(num);
 
-//function declaration
-function calcAge1(birthYear){
-    // const age = 2037 - birthYear;
-    return 2037 - birthYear;
-}
+// //function declaration
+// function calcAge1(birthYear){
+//     // const age = 2037 - birthYear;
+//     return 2037 - birthYear;
+// }
 
-const age1 = calcAge1(1991);
-console.log(age1);
+// const age1 = calcAge1(1991);
+// console.log(age1);
 
-//function expression
-const calcAge2 = function(birthYear) {
-    return 2023 - birthYear;    
-}
+// //function expression
+// const calcAge2 = function(birthYear) {
+//     return 2023 - birthYear;    
+// }
 
-const age2 = calcAge2(1999);
-console.log(age1 , age2);
+// const age2 = calcAge2(1999);
+// console.log(age1 , age2);
+
+//arrow function
+
+const calcAge3 = birthYear => 2037 - birthYear;
+const age3 = calcAge3(1991);
+console.log(age3);
