@@ -60,3 +60,17 @@
 // }
 
 // console.log(retireYear(1991 , 'Jason'));
+
+//function calling other functions
+function cutFruitPieces(fruit) {
+    return fruit * 4;
+}
+
+function fruitProcsr(apples , oranges){
+    const applePieces = cutFruitPieces(apples);
+    const orangePieces = cutFruitPieces(oranges);
+    const juice = `Juice with ${applePieces} apple pieces and ${orangePieces} orange pieces.`
+    return juice;
+}
+
+console.log(fruitProcsr(2,3));
