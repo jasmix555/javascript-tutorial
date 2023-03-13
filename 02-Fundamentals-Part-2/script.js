@@ -117,3 +117,27 @@ HINT: To check if number A is at least double number B, check for A >= 2 * B. Ap
 
 GOOD LUCK 😀
 */
+
+
+// const calcAverage = (a,b,c)=> (a + b + c) / 3;
+
+// let Dolphins = calcAverage(44 , 23 , 71);
+// let Koalas = calcAverage(65, 54 , 49);
+
+// console.log(Dolphins , Koalas);
+
+// const checkWinner = (avgDolphins , avgKoalas)=>{
+//     if (avgDolphins >= 2 * avgKoalas) {
+//         console.log(`Dolphins Win (${avgDolphins} vs ${avgKoalas})`);
+//     }else if(avgKoalas >= 2 * avgDolphins){
+//         console.log(`Koalas Win (${avgKoalas} vs ${avgDolphins})`);
+//     }else{
+//         console.log(`No team wins`);
+//     }
+// }
+// checkWinner(Dolphins , Koalas)
+
+// Dolphins = calcAverage(85 , 54 , 41);
+// Koalas = calcAverage(23 , 34 , 27);
+// console.log(Dolphins , Koalas);
+// checkWinner(Dolphins , Koalas)
