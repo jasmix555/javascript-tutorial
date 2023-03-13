@@ -238,3 +238,35 @@ GOOD LUCK 😀
 // }
 
 // console.log(jason);
+
+// learn about dot vs bracket notation
+// const jason = {
+//     firstName: "Jason",
+//     lastName: "Ng",
+//     age: 2023 - 2001,
+//     job: "Student",
+//     friends: ['oku' , 'riku'  , 'takuto' , 'keito' , 'shoutarou']
+// }
+
+// console.log(jason);
+
+// console.log(jason.firstName + jason.lastName);
+// console.log(jason["firstName"] + jason["lastName"]);
+
+// const nameKey = "Name";
+// console.log(jason["first" + nameKey] + jason["last" + nameKey]);
+
+// const interest = prompt("What do you want to know about Jason? Choose between firstName , lastName , age , job and friends");
+// if(jason[interest]){
+//     console.log(jason[interest]); //by using the bracket , since it is an array you just use the bracket instead of dot
+// }else{
+//     console.log("Undefined request.");
+// }
+
+// jason.location = "Japan";
+// jason["instagram"] = "jason_ng555"
+// console.log(jason);
+
+// // Challenge
+// // "Jonas has 3 friends, and his best friend is called Michael"
+// console.log(`${jason.firstName} has friends ${jason.friends.length} , and his best friend is called ${jason.friends[0]}`);
