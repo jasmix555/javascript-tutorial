@@ -142,10 +142,29 @@ GOOD LUCK 😀
 // console.log(Dolphins , Koalas);
 // checkWinner(Dolphins , Koalas)
 
-const friends = ["michael" , "steven" , "peter"]
-console.log(friends);
-console.log(friends[0]);
-console.log(friends[friends.length - 2]);
+// const year = new Array(1991 , 1984 , 2008 , 2020)
+// console.log(year);
 
-const years = new Array(1991 , 1984 , 2008 , 2020)
-console.log(years);
+// const friends = ["michael" , "steven" , "peter"]
+// console.log(friends);
+// console.log(friends[0]);
+// console.log(friends[friends.length - 2]);
+// friends[2] = "jay";
+// console.log(friends);
+
+// const firstname = "jay";
+// const jay = [firstname , "ng" , 2023 - 2001 , "student" , friends]
+// console.log(jay);
+
+// const calcAge = function(birthYear){
+//     return 2023 - birthYear;
+// }
+
+// const years = [1990 , 1967 , 2002 , 2010 , 2018];
+// const age1 =  calcAge(years[0]);
+// const age2 =  calcAge(years[1]);
+// const age3 =  calcAge(years[years.length -1]);
+// console.log(age1 , age2 , age3);
+
+// const ages = [calcAge(years[0]), calcAge(years[1]) , calcAge(years[years.length - 1 ])]
+// console.log(ages);
