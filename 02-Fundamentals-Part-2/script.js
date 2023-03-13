@@ -227,3 +227,14 @@ GOOD LUCK 😀
 
 // const total = [bills[0]+tips[0] , bills[1]+tips[1] , bills[2]+tips[2]  ]
 // console.log(total);
+
+// learning about objects
+// const jason = {
+//     firstName: "Jason",
+//     lastName: "Ng",
+//     age: 2023 - 2001,
+//     job: "Student",
+//     friends: ['oku' , 'riku'  , 'takuto' , 'keito' , 'shoutarou']
+// }
+
+// console.log(jason);
