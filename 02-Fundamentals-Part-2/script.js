@@ -141,3 +141,11 @@ GOOD LUCK 😀
 // Koalas = calcAverage(23 , 34 , 27);
 // console.log(Dolphins , Koalas);
 // checkWinner(Dolphins , Koalas)
+
+const friends = ["michael" , "steven" , "peter"]
+console.log(friends);
+console.log(friends[0]);
+console.log(friends[friends.length - 2]);
+
+const years = new Array(1991 , 1984 , 2008 , 2020)
+console.log(years);
